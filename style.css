@@ -1,0 +1,139 @@
+/*configurações gerais*/
+
+body{
+    font-family: Audiowide, sans-serif;
+    color: #0C2151;
+}
+.sl{
+    display: grid;
+    width: 100%;
+}
+li{
+    display: inline;
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 0%;
+}
+
+h2{
+    text-align: center;
+}
+
+/*menubar*/
+
+.topmenubar{
+    background-color: #F1F1F3;
+    width: 100%;
+    color: #0C2151;
+
+}
+
+.menubar{
+    background-color: #F1F1F3;
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.a{
+    padding-left: 0;
+} 
+
+/*Quem Somos*/
+
+
+
+.about{
+    background-color: #fff;
+    width: 100%;
+}
+
+.imglogo{
+    width: 40%;
+    float: left;
+    padding-top: 2%;
+
+}
+
+.logo{
+    margin-left: 15%;
+    
+}
+
+.descricao{
+    width: 50%;
+    float: left;
+    padding-top: 2%;
+}
+
+.desc{
+    font-size: 20px;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+/*Serviços*/
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.imagemserv{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.cinza{
+    background-color: #F1F1F3;
+    margin-top: 4%;
+}
+
+.branco{
+    background-color: #fff;
+    width: 100%;
+    color: #0C2151;
+}
+
+.endereco{
+    width: 32%;
+    margin: 0 auto;
+}
+
+.azul{
+    background-color: #0C2151;
+    width: 100%;
+    color: #F1F1F3;
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.email{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 30%;
+}
+
+.imgemail{
+    width: 10%;
+    height: 10%;
+    vertical-align: middle;
+}
+.telefone{
+    width: 70%;
+    margin: 0 auto;
+    padding-right: 30%;
+
+}

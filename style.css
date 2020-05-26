@@ -1,9 +1,11 @@
 /*configurações gerais*/
 
+
 body{
     font-family: Audiowide, sans-serif;
     color: #0C2151;
 }
+
 .sl{
     display: grid;
     width: 100%;
@@ -17,15 +19,21 @@ li{
 
 h2{
     text-align: center;
+    padding-top: 20px;
 }
+
 
 /*menubar*/
 
 .topmenubar{
     background-color: #F1F1F3;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     color: #0C2151;
-
+    padding: 5px 0;
+    z-index: 10;
 }
 
 .menubar{
@@ -41,11 +49,10 @@ h2{
 
 /*Quem Somos*/
 
-
-
-.about{
+.aboutus{
     background-color: #fff;
     width: 100%;
+    margin-top: 100px;
 }
 
 .imglogo{
@@ -57,18 +64,22 @@ h2{
 
 .logo{
     margin-left: 15%;
-    
+    max-width:500px;
+    max-height:450px;
+    width: auto;
+    height: auto;
 }
 
 .descricao{
     width: 50%;
     float: left;
     padding-top: 2%;
+    
 }
 
 .desc{
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.8;
     display: inline-block;
 }
 
@@ -76,6 +87,8 @@ h2{
 .services{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .imagemserv{
     width: 20%;
@@ -92,9 +105,11 @@ h3{
 p{
     text-align: center;
 }
+
+
 .cinza{
     background-color: #F1F1F3;
-    margin-top: 4%;
+    margin-top: 4%;  
 }
 
 .branco{
@@ -103,15 +118,23 @@ p{
     color: #0C2151;
 }
 
-.endereco{
-    width: 32%;
-    margin: 0 auto;
+.adress{
+    margin-bottom: 20px;
 }
+
+.endereco{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+/*Contato*/
 
 .azul{
     background-color: #0C2151;
     width: 100%;
     color: #F1F1F3;
+
 }
 
 .contato{

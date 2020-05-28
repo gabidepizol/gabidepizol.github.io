@@ -4,21 +4,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*celular*/
 
 @media only screen and (max-width: 767px){
@@ -50,7 +35,7 @@ li{
 h2{
     text-align: center;
     padding-top: 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
@@ -65,6 +50,7 @@ h2{
     color: #0C2151;
     padding: 0;
     z-index: 10;
+    display: none;
     
 }
 
@@ -91,17 +77,22 @@ a{
 
 /*Quem Somos*/
 
+.quemsomos{
+    display: none;
+}
+
 .aboutus{
     background-color: #fff;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 10px;
+
 }
 
 .imglogo{
-    width: 40%;
+    width: 100%;
     float: left;
-    padding-top: 2%;
-
+    padding-top: 2%;    
+    margin-left: 50px;
 }
 
 .logo{
@@ -114,9 +105,11 @@ a{
 
 .descricao{
     width: 50%;
+    text-align: center;
     float: left;
     padding-top: 2%;
-    
+    text-align: 15px;
+    margin-left: 10%;
 }
 
 .desc{
@@ -129,28 +122,30 @@ a{
 
 
 .services{
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-    
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .imagemserv{
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h3{
     text-align: center;
+    font-size: 15px;
 }
 
 p{
     text-align: center;
+    font-size: 15px;
 }
 
 
@@ -170,8 +165,8 @@ p{
 }
 
 .endereco{
-    width: 40%;
-    margin: 0 auto;
+    width: 50%;
+    margin: auto;
     padding-top: 30px;
 
 }

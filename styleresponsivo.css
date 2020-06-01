@@ -2,10 +2,11 @@
 
 @media only screen and (max-width: 767px){
 
-        /*configurações gerais*/
+/*configurações gerais*/
 
 *{
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -13,15 +14,10 @@ body{
     color: #0C2151;
 }
 
-.sl{
-    display: grid;
-    width: 100%;
-}
-
 li{
     display: inline;
     font-size: 10px;
-    padding-left: 5%;
+    
     padding-right: 0%;
     
 }
@@ -36,37 +32,7 @@ h2{
 /*menubar*/
 
 .topmenubar{
-    background-color: #F1F1F3;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #0C2151;
-    padding: 0;
-    z-index: 10;
     display: none;
-    
-}
-
-.menubar{
-    background-color: #F1F1F3;
-    height: 50px;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.a{
-    padding-left: 0;
-}
-
-a{
-    color: #0C2151;
-    text-decoration: none;
-}
-
-.img_logo{
-    max-width:30px;
-    max-height:25px;
 }
 
 /*Quem Somos*/
@@ -83,7 +49,7 @@ a{
 }
 
 .imglogo{
-    width: 100%;
+    width: 10%;
     float: left;
     padding-top: 2%;    
     margin-left: 50px;
@@ -98,17 +64,17 @@ a{
 }
 
 .descricao{
-    width: 50%;
+    width: 100%;
     text-align: center;
     float: left;
     padding-top: 2%;
-    text-align: 15px;
-    margin-left: 10%;
+
 }
 
 .desc{
     font-size: 10px;
     line-height: 1.8;
+    width: 50%;
     display: inline-block;
 }
 
@@ -162,7 +128,6 @@ p{
     width: 50%;
     margin: auto;
     padding-top: 30px;
-
 }
 
 /*Contato*/
